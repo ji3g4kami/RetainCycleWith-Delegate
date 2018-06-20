@@ -14,7 +14,7 @@ protocol SmallVCDelegate: class {
 
 class SmallViewController: UIViewController {
 
-    var delegate: SmallVCDelegate?
+    weak var delegate: SmallVCDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
